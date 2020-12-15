@@ -1,0 +1,31 @@
+:root {
+  --colour: #eef0f2;
+  --colour1: #eec643;
+  --colour2: #0d21a1;
+  --colour3: #011638;
+  --colour4: #141414;
+}
+
+nav,
+nav a {
+  background-color: var(--colour1);
+  color: var(--colour);
+}
+
+nav a:hover {
+  color: var(--colour2);
+}
+
+/* footer  */
+footer {
+  background-color: var(--colour1);
+}
+
+footer a {
+  color: var(--colour);
+}
+
+footer a:hover {
+  color: var(--colour2);
+  text-decoration: none;
+}
