@@ -13,11 +13,18 @@
     <link rel="stylesheet" href="css/normalize.css" />
     <link rel="stylesheet" href="css/bootstrap.min.css" />
     <link rel="stylesheet" href="css/main.css" />
+    <style>
+      body {
+        background-color: #fff;
+      }
+    </style>
   </head>
   <body>
     <header>
-      <nav class="navbar navbar-expand-lg">
-        <a class="navbar-brand" href="#">Automoblox®</a>
+      <nav class="navbar navbar-expand-lg navbar-light">
+        <a class="navbar-brand" href="index.html"
+          ><img src="img/automoblox_logo.png" alt="logo" style="height: 50px"
+        /></a>
         <button
           class="navbar-toggler"
           type="button"
@@ -29,27 +36,158 @@
         >
           <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse" id="navbarText">
-          <ul class="navbar-nav mr-auto">
-            <li class="nav-item active">
-              <a class="nav-link" href="#"
-                >Home <span class="sr-only">(current)</span></a
-              >
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Features</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Pricing</a>
-            </li>
-          </ul>
-          <span class="navbar-text">
-            Inspiring creativity one child at a time</span
-          >
-        </div>
+        <ul class="collapse navbar-collapse" id="navbarText">
+          <li class="nav-item active">
+            <a class="nav-link" href="index.html"
+              >Home <span class="sr-only">(current)</span></a
+            >
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="red.html">Red</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="green.html">Green</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="blue.html">Blue</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="purple.html">Purple</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="brown.html">Brown</a>
+          </li>
+        </ul>
       </nav>
     </header>
-    <main class="container">Hello</main>
+    <!-- Header -->
+    <main class="container">
+      <h4 style="margin-top: 5%">GET YOUR FAVOURITE AUTOMOBLOX®</h4>
+      <br />
+      <div id="carousel-cars" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+          <li data-target="#carousel-cars" data-slide-to="0"></li>
+          <li data-target="#carousel-cars" data-slide-to="1"></li>
+          <li data-target="#carousel-cars" data-slide-to="2"></li>
+          <li data-target="#carousel-cars" data-slide-to="3"></li>
+          <li data-target="#carousel-cars" data-slide-to="4"></li>
+        </ol>
+        <div class="carousel-inner">
+          <figure class="carousel-item active">
+            <img
+              src="img/c9_large.jpg"
+              class="rounded mx-auto d-block"
+              id="largeImg"
+              alt="c9 red"
+            />
+            <figcaption class="carousel-caption">
+              <p>C9 - RED</p>
+            </figcaption>
+          </figure>
+          <figure class="carousel-item">
+            <img
+              src="img/t9_large.jpg"
+              class="rounded mx-auto d-block"
+              alt="c9r red"
+            />
+            <figcaption class="carousel-caption">
+              <p>T9 - GREEN</p>
+            </figcaption>
+          </figure>
+          <figure class="carousel-item">
+            <img
+              src="img/s9_large.jpg"
+              class="rounded mx-auto d-block"
+              alt="s9 BLUE"
+            />
+            <figcaption class="carousel-caption">
+              <p>S9 - BLUE</p>
+            </figcaption>
+          </figure>
+          <figure class="carousel-item">
+            <img
+              src="img/x9_large.jpg"
+              class="rounded mx-auto d-block"
+              alt="x9 PURPLE"
+            />
+            <figcaption class="carousel-caption">
+              <p>X9 - PURPLE</p>
+            </figcaption>
+          </figure>
+          <figure class="carousel-item">
+            <img
+              src="img/c9s_large.jpg"
+              class="rounded mx-auto d-block"
+              alt="c9s BROWN"
+            />
+            <figcaption class="carousel-caption">
+              <p>C9S - BROWN</p>
+            </figcaption>
+          </figure>
+        </div>
+        <!--.carousel-inner-->
+      </div>
+      <div>
+        <ul class="list-inline text-center align-items-center carList">
+          <li class="list-inline-item">
+            <a href="red.html"><img src="img/c9_small.jpg" alt="c9" /></a>
+          </li>
+          <li class="list-inline-item">
+            <a href="green.html"><img src="img/t9_small.jpg" alt="t9" /></a>
+          </li>
+          <li class="list-inline-item">
+            <a href="blue.html"><img src="img/s9_small.jpg" alt="s9" /></a>
+          </li>
+          <li class="list-inline-item">
+            <a href="purple.html"><img src="img/x9_small.jpg" alt="x9" /></a>
+          </li>
+          <li class="list-inline-item">
+            <a href="brown.html"><img src="img/c9s_small.jpg" alt="c9s" /></a>
+          </li>
+        </ul>
+      </div>
+      <h4 class="row">Information</h4>
+      <div class="row" id="details">
+        <div class="col col-md-4 col-12">
+          <h5>About us</h5>
+          <br />
+          Aliquam malesuada ex vel finibus gravida. Ut erat lorem, maximus quis
+          commodo ac, mattis ut libero. Mauris id tempus enim. Nam et orci at
+          mauris sodales rhoncus. Ut aliquam elementum lacus, at interdum augue
+          fermentum in. Nunc iaculis lobortis quam eu placerat. Integer
+          facilisis, magna ac condimentum vulputate, purus odio lacinia turpis,
+          et aliquet massa nibh eu est. Donec commodo leo eu justo molestie
+          imperdiet. In vel lectus in lectus interdum placerat a id nunc.
+          Aliquam ut iaculis nisl. Sed ac viverra mi, sit amet venenatis ante.
+          Curabitur semper mauris ut pretium porttitor.
+        </div>
+        <div class="col col-md-4 col-12">
+          <h5>How it works</h5>
+          <br />
+          Maecenas quis est elementum quam rutrum interdum. Curabitur tempor dui
+          sit amet metus molestie varius. Suspendisse nec quam id turpis commodo
+          auctor id in dui. Cras elementum dolor at ipsum egestas, quis placerat
+          odio finibus. Aliquam pretium neque eget mattis convallis. Aenean vel
+          ultricies lacus, a pulvinar elit. Donec hendrerit purus vel libero
+          tristique, nec convallis augue elementum. Maecenas rutrum erat vitae
+          finibus gravida. In sagittis rhoncus libero, a elementum erat pharetra
+          nec.
+        </div>
+        <div class="col col-md-4 col-12">
+          <h5>Need to know</h5>
+          <br />
+          Praesent viverra massa libero, sit amet tincidunt lacus rhoncus eget.
+          In scelerisque finibus massa. Nulla blandit orci nec mauris malesuada
+          tempus. Morbi pharetra laoreet bibendum. Praesent ullamcorper porta
+          nibh, eget faucibus magna. Nunc euismod, nisl eget pretium pharetra,
+          purus mi accumsan lorem, quis dictum leo odio in odio. Nunc euismod,
+          quam id auctor dictum, dui enim interdum risus, quis eleifend turpis
+          neque sed quam. Fusce tempor sed odio eget tristique. Morbi aliquet
+          accumsan euismod. Suspendisse erat odio, consectetur vitae sapien id,
+          mattis pellentesque ligula.
+        </div>
+      </div>
+    </main>
     <!-- Footer -->
     <footer class="page-footer font-small blue">
       <!-- Copyright -->
@@ -75,5 +213,6 @@
       integrity="sha384-w1Q4orYjBQndcko6MimVbzY0tgp4pWB4lZ7lr30WKz0vr/aWKhXdBNmNb5D92v7s"
       crossorigin="anonymous"
     ></script>
+    <script src="js/main.js"></script>
   </body>
 </html>
